@@ -58,7 +58,9 @@
         "tags": {
           "fips-mode": "disabled"
         }
-      },
+      }
+    ]
+  },
   "versions": {
     "freeipa": [
       {
