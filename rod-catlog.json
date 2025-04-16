@@ -1,0 +1,116 @@
+{
+  "images": {
+    "freeipa-images": [
+      {
+        "created": 1688638238,
+        "published": 1688640586,
+        "date": "2023-07-06",
+        "description": "Official Cloudbreak image",
+        "images": {
+          "aws": {
+            "af-south-1": "ami-0c75efdb89b33e230",
+            "ap-east-1": "ami-011c330c07bee8cfa",
+            "ap-northeast-1": "ami-006c664b6d0c5a318",
+            "ap-northeast-2": "ami-00c2f9bfabbad7a3b",
+            "ap-south-1": "ami-0a64fee515e8937d2",
+            "ap-southeast-1": "ami-04f0e0a157ca46c97",
+            "ap-southeast-2": "ami-0b7b3172887a5ac65",
+            "ap-southeast-3": "ami-0b6b90e8953185c20",
+            "ca-central-1": "ami-0e7cf19b7e8b537ec",
+            "eu-central-1": "ami-0e0cbc463a8c2b433",
+            "eu-central-2": "ami-0ba78d544d124e836",
+            "eu-north-1": "ami-0e7f9797d94f66c52",
+            "eu-south-1": "ami-0b9e2f1a99f87106b",
+            "eu-south-2": "ami-090947120b2624b40",
+            "eu-west-1": "ami-0af0693d404a35d0e",
+            "eu-west-2": "ami-0dbb4d7dc49001cc7",
+            "eu-west-3": "ami-0ee60edcdf21a0da1",
+            "me-central-1": "ami-0fea0eb2cdd5982c8",
+            "me-south-1": "ami-05ce2c64ee3c19f62",
+            "sa-east-1": "ami-00e84edf501c2a98c",
+            "us-east-1": "ami-0e226fa9e82302532",
+            "us-east-2": "ami-05ff41442475a9871",
+            "us-west-1": "ami-06ffc69b0f469da5d",
+            "us-west-2": "ami-0554d4572bb45aeb8"
+          }
+        },
+        "os": "redhat8",
+        "os_type": "redhat8",
+        "uuid": "ff04e62b-88c6-4d2e-86fa-2605a5e557ab",
+        "package-versions": {
+          "blackbox-exporter": "0.19.0",
+          "cdp-logging-agent": "0.3.6",
+          "cdp-minifi-agent": "1.22.07",
+          "cdp-prometheus": "2.36.2",
+          "cdp-request-signer": "0.2.4",
+          "cdp-telemetry": "0.4.31",
+          "cloudbreak_images": "332d64a63562b0aca4540cd5808ce1d128b2222f",
+          "freeipa-health-agent": "0.1-20230524185955gitcd308d4",
+          "freeipa-ldap-agent": "1.0.0-b10391",
+          "freeipa-plugin": "1.0-20230613035802git1c2c21d.el8",
+          "inverting-proxy-agent": "3.0.7-b1",
+          "inverting-proxy-agent_gbn": "41924420",
+          "node-exporter": "1.3.1",
+          "python36": "3.6.8-38.module+el8.5.0+12207+5c5719bc",
+          "salt": "3001.8",
+          "salt-bootstrap": "0.13.6-2022-05-20T08:57:17"
+        },
+        "tags": {
+          "fips-mode": "disabled"
+        }
+      },
+  "versions": {
+    "freeipa": [
+      {
+        "images": [
+          "ebab0d27-234d-4cbb-848e-6363c5d4ce8f"
+        ],
+        "defaults": [],
+        "versions": [
+          "2.35.0-b50",
+          "2.37.0-b117",
+          "2.37.0-b121",
+          "2.37.0-b134",
+          "2.38.0-b102",
+          "2.41.0-b28",
+          "2.42.0-b47",
+          "2.41.0-b118",
+          "2.41.0-b122",
+          "2.42.0-b84",
+          "2.41.0-b123",
+          "2.42.0-b97",
+          "2.44.0-b38",
+          "2.43.0-b132",
+          "2.46.0-b7",
+          "2.46.0-b10",
+          "2.44.0-b151",
+          "2.45.0-b129",
+          "2.47.0-b70",
+          "2.47.0-b157",
+          "2.47.0-b160",
+          "2.48.0-b20",
+          "2.48.0-b36",
+          "2.48.0-b106",
+          "2.49.0-b21",
+          "2.49.0-b57",
+          "2.49.0-b99",
+          "2.50.0-b24",
+          "2.51.0-b99",
+          "2.51.0-b143",
+          "2.52.0-b104",
+          "2.54.0-b15",
+          "2.54.0-b49",
+          "2.54.0-b68",
+          "2.57.0-b23",
+          "2.57.0-b21",
+          "2.58.0-b14",
+          "2.58.0-b32",
+          "2.59.0-b49",
+          "2.63.0-b30",
+          "2.63.0-b32",
+          "--metadataUrl"
+        ]
+      }
+    ]
+  }
+}
