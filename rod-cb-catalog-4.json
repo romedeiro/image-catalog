@@ -1,0 +1,1391 @@
+
+{
+  "images": {
+    "base-images": [
+      {
+        "created": 1677542517,
+        "published": 1677544545,
+        "date": "2023-02-28",
+        "description": "Official Cloudbreak image",
+        "images": {
+          "gcp": {
+            "asia-east1": "cloudera-cb-images/cb-cdh--1677542512.tar.gz",
+            "asia-east2": "cloudera-cb-images/cb-cdh--1677542512.tar.gz",
+            "asia-northeast1": "cloudera-cb-images/cb-cdh--1677542512.tar.gz",
+            "asia-northeast2": "cloudera-cb-images/cb-cdh--1677542512.tar.gz",
+            "asia-northeast3": "cloudera-cb-images/cb-cdh--1677542512.tar.gz",
+            "asia-south1": "cloudera-cb-images/cb-cdh--1677542512.tar.gz",
+            "asia-south2": "cloudera-cb-images/cb-cdh--1677542512.tar.gz",
+            "asia-southeast1": "cloudera-cb-images/cb-cdh--1677542512.tar.gz",
+            "asia-southeast2": "cloudera-cb-images/cb-cdh--1677542512.tar.gz",
+            "australia-southeast1": "cloudera-cb-images/cb-cdh--1677542512.tar.gz",
+            "australia-southeast2": "cloudera-cb-images/cb-cdh--1677542512.tar.gz",
+            "europe-central2": "cloudera-cb-images/cb-cdh--1677542512.tar.gz",
+            "europe-north1": "cloudera-cb-images/cb-cdh--1677542512.tar.gz",
+            "europe-west1": "cloudera-cb-images/cb-cdh--1677542512.tar.gz",
+            "europe-west2": "cloudera-cb-images/cb-cdh--1677542512.tar.gz",
+            "europe-west3": "cloudera-cb-images/cb-cdh--1677542512.tar.gz",
+            "europe-west4": "cloudera-cb-images/cb-cdh--1677542512.tar.gz",
+            "europe-west6": "cloudera-cb-images/cb-cdh--1677542512.tar.gz",
+            "northamerica-northeast1": "cloudera-cb-images/cb-cdh--1677542512.tar.gz",
+            "northamerica-northeast2": "cloudera-cb-images/cb-cdh--1677542512.tar.gz",
+            "southamerica-east1": "cloudera-cb-images/cb-cdh--1677542512.tar.gz",
+            "southamerica-west1": "cloudera-cb-images/cb-cdh--1677542512.tar.gz",
+            "us-central1": "cloudera-cb-images/cb-cdh--1677542512.tar.gz",
+            "us-east1": "cloudera-cb-images/cb-cdh--1677542512.tar.gz",
+            "us-east4": "cloudera-cb-images/cb-cdh--1677542512.tar.gz",
+            "us-west1": "cloudera-cb-images/cb-cdh--1677542512.tar.gz",
+            "us-west2": "cloudera-cb-images/cb-cdh--1677542512.tar.gz",
+            "us-west3": "cloudera-cb-images/cb-cdh--1677542512.tar.gz",
+            "us-west4": "cloudera-cb-images/cb-cdh--1677542512.tar.gz"
+          }
+        },
+        "os": "centos7",
+        "os_type": "redhat7",
+        "uuid": "9e8abfd9-91ee-4b3d-9f88-da3e28be7b4b",
+        "package-versions": {
+          "blackbox-exporter": "0.19.0",
+          "cdp-logging-agent": "0.3.6",
+          "cdp-minifi-agent": "1.22.07",
+          "cdp-prometheus": "2.36.2",
+          "cdp-request-signer": "0.2.4",
+          "cdp-telemetry": "0.4.31",
+          "cloudbreak_images": "0ed7ae8",
+          "inverting-proxy-agent": "3.0.3-b2",
+          "inverting-proxy-agent_gbn": "37118790",
+          "metering_agent": "1.0.0",
+          "node-exporter": "1.3.1",
+          "salt": "3001.8",
+          "salt-bootstrap": "0.13.6-2022-05-20T08:57:17"
+        }
+      },
+      {
+        "created": 1677542626,
+        "published": 1677545524,
+        "date": "2023-02-28",
+        "description": "Official Cloudbreak image",
+        "images": {
+          "azure": {
+            "Australia Central": "https://cldraustraliacentral.blob.core.windows.net/images/cb-cdh--1677542610.vhd",
+            "Australia East": "https://cldraustraliaeast.blob.core.windows.net/images/cb-cdh--1677542610.vhd",
+            "Australia Southeast": "https://cldraustralisoutheast.blob.core.windows.net/images/cb-cdh--1677542610.vhd",
+            "Brazil South": "https://cldrbrazilsouth.blob.core.windows.net/images/cb-cdh--1677542610.vhd",
+            "Canada Central": "https://cldrcanadacentral.blob.core.windows.net/images/cb-cdh--1677542610.vhd",
+            "Canada East": "https://cldrcanadaeast.blob.core.windows.net/images/cb-cdh--1677542610.vhd",
+            "Central India": "https://cldrcentralindia.blob.core.windows.net/images/cb-cdh--1677542610.vhd",
+            "Central US": "https://cldrcentralus.blob.core.windows.net/images/cb-cdh--1677542610.vhd",
+            "East Asia": "https://cldreastasia.blob.core.windows.net/images/cb-cdh--1677542610.vhd",
+            "East US": "https://cldreastus.blob.core.windows.net/images/cb-cdh--1677542610.vhd",
+            "East US 2": "https://cldreastus2.blob.core.windows.net/images/cb-cdh--1677542610.vhd",
+            "France Central": "https://cldrfrancecentral.blob.core.windows.net/images/cb-cdh--1677542610.vhd",
+            "Germany West Central": "https://cldrgermanywestcentral.blob.core.windows.net/images/cb-cdh--1677542610.vhd",
+            "Japan East": "https://cldrjapaneast.blob.core.windows.net/images/cb-cdh--1677542610.vhd",
+            "Japan West": "https://cldrjapanwest.blob.core.windows.net/images/cb-cdh--1677542610.vhd",
+            "Korea Central": "https://cldrkoreacentral.blob.core.windows.net/images/cb-cdh--1677542610.vhd",
+            "Korea South": "https://cldrkoreasouth.blob.core.windows.net/images/cb-cdh--1677542610.vhd",
+            "North Central US": "https://cldrnorthcentralus.blob.core.windows.net/images/cb-cdh--1677542610.vhd",
+            "North Europe": "https://cldrnortheurope.blob.core.windows.net/images/cb-cdh--1677542610.vhd",
+            "Norway East": "https://cldrnorwayeast.blob.core.windows.net/images/cb-cdh--1677542610.vhd",
+            "South Africa North": "https://cldrsouthafricanorth.blob.core.windows.net/images/cb-cdh--1677542610.vhd",
+            "South Central US": "https://cldrsouthcentralus.blob.core.windows.net/images/cb-cdh--1677542610.vhd",
+            "South India": "https://cldrsouthindia.blob.core.windows.net/images/cb-cdh--1677542610.vhd",
+            "Southeast Asia": "https://cldrsoutheastasia.blob.core.windows.net/images/cb-cdh--1677542610.vhd",
+            "Switzerland North": "https://cldrswitzerlandnorth.blob.core.windows.net/images/cb-cdh--1677542610.vhd",
+            "UAE North": "https://cldruaenorth.blob.core.windows.net/images/cb-cdh--1677542610.vhd",
+            "UK South": "https://cldruksouth.blob.core.windows.net/images/cb-cdh--1677542610.vhd",
+            "UK West": "https://cldrukwest.blob.core.windows.net/images/cb-cdh--1677542610.vhd",
+            "West Central US": "https://cldrwestcentralus.blob.core.windows.net/images/cb-cdh--1677542610.vhd",
+            "West Europe": "https://cldrwesteurope.blob.core.windows.net/images/cb-cdh--1677542610.vhd",
+            "West India": "https://cldrwestindia.blob.core.windows.net/images/cb-cdh--1677542610.vhd",
+            "West US": "https://cldrwestus.blob.core.windows.net/images/cb-cdh--1677542610.vhd",
+            "West US 2": "https://cldrwestus2.blob.core.windows.net/images/cb-cdh--1677542610.vhd"
+          }
+        },
+        "os": "centos7",
+        "os_type": "redhat7",
+        "uuid": "70a47c34-3d37-4e2d-8690-1fd8ace49083",
+        "package-versions": {
+          "blackbox-exporter": "0.19.0",
+          "cdp-logging-agent": "0.3.6",
+          "cdp-minifi-agent": "1.22.07",
+          "cdp-prometheus": "2.36.2",
+          "cdp-request-signer": "0.2.4",
+          "cdp-telemetry": "0.4.31",
+          "cloudbreak_images": "0ed7ae8",
+          "inverting-proxy-agent": "3.0.3-b2",
+          "inverting-proxy-agent_gbn": "37118790",
+          "metering_agent": "1.0.0",
+          "node-exporter": "1.3.1",
+          "salt": "3001.8",
+          "salt-bootstrap": "0.13.6-2022-05-20T08:57:17"
+        }
+      },
+      {
+        "created": 1687478602,
+        "published": 1687480782,
+        "date": "2023-06-23",
+        "description": "Official Cloudbreak image",
+        "images": {
+          "gcp": {
+            "asia-east1": "cloudera-cb-images/cb-cdh--1687478589.tar.gz",
+            "asia-east2": "cloudera-cb-images/cb-cdh--1687478589.tar.gz",
+            "asia-northeast1": "cloudera-cb-images/cb-cdh--1687478589.tar.gz",
+            "asia-northeast2": "cloudera-cb-images/cb-cdh--1687478589.tar.gz",
+            "asia-northeast3": "cloudera-cb-images/cb-cdh--1687478589.tar.gz",
+            "asia-south1": "cloudera-cb-images/cb-cdh--1687478589.tar.gz",
+            "asia-south2": "cloudera-cb-images/cb-cdh--1687478589.tar.gz",
+            "asia-southeast1": "cloudera-cb-images/cb-cdh--1687478589.tar.gz",
+            "asia-southeast2": "cloudera-cb-images/cb-cdh--1687478589.tar.gz",
+            "australia-southeast1": "cloudera-cb-images/cb-cdh--1687478589.tar.gz",
+            "australia-southeast2": "cloudera-cb-images/cb-cdh--1687478589.tar.gz",
+            "europe-central2": "cloudera-cb-images/cb-cdh--1687478589.tar.gz",
+            "europe-north1": "cloudera-cb-images/cb-cdh--1687478589.tar.gz",
+            "europe-west1": "cloudera-cb-images/cb-cdh--1687478589.tar.gz",
+            "europe-west2": "cloudera-cb-images/cb-cdh--1687478589.tar.gz",
+            "europe-west3": "cloudera-cb-images/cb-cdh--1687478589.tar.gz",
+            "europe-west4": "cloudera-cb-images/cb-cdh--1687478589.tar.gz",
+            "europe-west6": "cloudera-cb-images/cb-cdh--1687478589.tar.gz",
+            "northamerica-northeast1": "cloudera-cb-images/cb-cdh--1687478589.tar.gz",
+            "northamerica-northeast2": "cloudera-cb-images/cb-cdh--1687478589.tar.gz",
+            "southamerica-east1": "cloudera-cb-images/cb-cdh--1687478589.tar.gz",
+            "southamerica-west1": "cloudera-cb-images/cb-cdh--1687478589.tar.gz",
+            "us-central1": "cloudera-cb-images/cb-cdh--1687478589.tar.gz",
+            "us-east1": "cloudera-cb-images/cb-cdh--1687478589.tar.gz",
+            "us-east4": "cloudera-cb-images/cb-cdh--1687478589.tar.gz",
+            "us-west1": "cloudera-cb-images/cb-cdh--1687478589.tar.gz",
+            "us-west2": "cloudera-cb-images/cb-cdh--1687478589.tar.gz",
+            "us-west3": "cloudera-cb-images/cb-cdh--1687478589.tar.gz",
+            "us-west4": "cloudera-cb-images/cb-cdh--1687478589.tar.gz"
+          }
+        },
+        "os": "centos7",
+        "os_type": "redhat7",
+        "uuid": "952fb1ca-2bf1-4f8b-87f4-918bc2fc849c",
+        "package-versions": {
+          "blackbox-exporter": "0.19.0",
+          "cdp-logging-agent": "0.3.6",
+          "cdp-minifi-agent": "1.22.07",
+          "cdp-prometheus": "2.36.2",
+          "cdp-request-signer": "0.2.4",
+          "cdp-telemetry": "0.4.31",
+          "cloudbreak_images": "6749080ea0ec7356942b3b1127e8be08a6226374",
+          "inverting-proxy-agent": "3.0.7-b1",
+          "inverting-proxy-agent_gbn": "41924420",
+          "java": "8",
+          "java11": "11.0.19",
+          "java17": "17.0.2",
+          "java8": "1.8.0_372",
+          "metering_agent": "1.0.0",
+          "node-exporter": "1.3.1",
+          "psql": "10",
+          "psql10": "10.23",
+          "psql11": "11.20",
+          "psql14": "14.8",
+          "python27": "2.7.5-92.el7_9",
+          "python36": "3.6.8-18.el7",
+          "python38": "3.8.13-1.el7",
+          "salt": "3001.8",
+          "salt-bootstrap": "0.13.6-2022-05-20T08:57:17"
+        }
+      },
+      {
+        "created": 1687478620,
+        "published": 1687481905,
+        "date": "2023-06-23",
+        "description": "Official Cloudbreak image",
+        "images": {
+          "azure": {
+            "Australia Central": "https://cldraustraliacentral.blob.core.windows.net/images/cb-cdh--1687478608.vhd",
+            "Australia East": "https://cldraustraliaeast.blob.core.windows.net/images/cb-cdh--1687478608.vhd",
+            "Australia Southeast": "https://cldraustralisoutheast.blob.core.windows.net/images/cb-cdh--1687478608.vhd",
+            "Brazil South": "https://cldrbrazilsouth.blob.core.windows.net/images/cb-cdh--1687478608.vhd",
+            "Canada Central": "https://cldrcanadacentral.blob.core.windows.net/images/cb-cdh--1687478608.vhd",
+            "Canada East": "https://cldrcanadaeast.blob.core.windows.net/images/cb-cdh--1687478608.vhd",
+            "Central India": "https://cldrcentralindia.blob.core.windows.net/images/cb-cdh--1687478608.vhd",
+            "Central US": "https://cldrcentralus.blob.core.windows.net/images/cb-cdh--1687478608.vhd",
+            "East Asia": "https://cldreastasia.blob.core.windows.net/images/cb-cdh--1687478608.vhd",
+            "East US": "https://cldreastus.blob.core.windows.net/images/cb-cdh--1687478608.vhd",
+            "East US 2": "https://cldreastus2.blob.core.windows.net/images/cb-cdh--1687478608.vhd",
+            "France Central": "https://cldrfrancecentral.blob.core.windows.net/images/cb-cdh--1687478608.vhd",
+            "Germany West Central": "https://cldrgermanywestcentral.blob.core.windows.net/images/cb-cdh--1687478608.vhd",
+            "Japan East": "https://cldrjapaneast.blob.core.windows.net/images/cb-cdh--1687478608.vhd",
+            "Japan West": "https://cldrjapanwest.blob.core.windows.net/images/cb-cdh--1687478608.vhd",
+            "Korea Central": "https://cldrkoreacentral.blob.core.windows.net/images/cb-cdh--1687478608.vhd",
+            "Korea South": "https://cldrkoreasouth.blob.core.windows.net/images/cb-cdh--1687478608.vhd",
+            "North Central US": "https://cldrnorthcentralus.blob.core.windows.net/images/cb-cdh--1687478608.vhd",
+            "North Europe": "https://cldrnortheurope.blob.core.windows.net/images/cb-cdh--1687478608.vhd",
+            "Norway East": "https://cldrnorwayeast.blob.core.windows.net/images/cb-cdh--1687478608.vhd",
+            "South Africa North": "https://cldrsouthafricanorth.blob.core.windows.net/images/cb-cdh--1687478608.vhd",
+            "South Central US": "https://cldrsouthcentralus.blob.core.windows.net/images/cb-cdh--1687478608.vhd",
+            "South India": "https://cldrsouthindia.blob.core.windows.net/images/cb-cdh--1687478608.vhd",
+            "Southeast Asia": "https://cldrsoutheastasia.blob.core.windows.net/images/cb-cdh--1687478608.vhd",
+            "Switzerland North": "https://cldrswitzerlandnorth.blob.core.windows.net/images/cb-cdh--1687478608.vhd",
+            "UAE North": "https://cldruaenorth.blob.core.windows.net/images/cb-cdh--1687478608.vhd",
+            "UK South": "https://cldruksouth.blob.core.windows.net/images/cb-cdh--1687478608.vhd",
+            "UK West": "https://cldrukwest.blob.core.windows.net/images/cb-cdh--1687478608.vhd",
+            "West Central US": "https://cldrwestcentralus.blob.core.windows.net/images/cb-cdh--1687478608.vhd",
+            "West Europe": "https://cldrwesteurope.blob.core.windows.net/images/cb-cdh--1687478608.vhd",
+            "West India": "https://cldrwestindia.blob.core.windows.net/images/cb-cdh--1687478608.vhd",
+            "West US": "https://cldrwestus.blob.core.windows.net/images/cb-cdh--1687478608.vhd",
+            "West US 2": "https://cldrwestus2.blob.core.windows.net/images/cb-cdh--1687478608.vhd"
+          }
+        },
+        "os": "centos7",
+        "os_type": "redhat7",
+        "uuid": "8b6ea689-5dc7-47ea-bb55-816a4b1d9173",
+        "package-versions": {
+          "blackbox-exporter": "0.19.0",
+          "cdp-logging-agent": "0.3.6",
+          "cdp-minifi-agent": "1.22.07",
+          "cdp-prometheus": "2.36.2",
+          "cdp-request-signer": "0.2.4",
+          "cdp-telemetry": "0.4.31",
+          "cloudbreak_images": "6749080ea0ec7356942b3b1127e8be08a6226374",
+          "inverting-proxy-agent": "3.0.7-b1",
+          "inverting-proxy-agent_gbn": "41924420",
+          "java": "8",
+          "java11": "11.0.19",
+          "java17": "17.0.2",
+          "java8": "1.8.0_372",
+          "metering_agent": "1.0.0",
+          "node-exporter": "1.3.1",
+          "psql": "10",
+          "psql10": "10.23",
+          "psql11": "11.20",
+          "psql14": "14.8",
+          "python27": "2.7.5-92.el7_9",
+          "python36": "3.6.8-18.el7",
+          "python38": "3.8.13-1.el7",
+          "salt": "3001.8",
+          "salt-bootstrap": "0.13.6-2022-05-20T08:57:17"
+        }
+      },
+      {
+        "created": 1687478609,
+        "published": 1687482991,
+        "date": "2023-06-23",
+        "description": "Official Cloudbreak image",
+        "images": {
+          "aws": {
+            "af-south-1": "ami-09c450dbcd27250c0",
+            "ap-east-1": "ami-0b8dc3911d6241520",
+            "ap-northeast-1": "ami-0244ed18317381f02",
+            "ap-northeast-2": "ami-0537b0926a78afce3",
+            "ap-south-1": "ami-01840eae1f23fc716",
+            "ap-southeast-1": "ami-0d79e1d6eb5f31762",
+            "ap-southeast-2": "ami-0efbdbf1b328e6bc5",
+            "ap-southeast-3": "ami-03a8aa25796060e85",
+            "ca-central-1": "ami-04f556df7b950dd0e",
+            "eu-central-1": "ami-0c6bb419d94ef4c81",
+            "eu-central-2": "ami-0a16bd54c74f52a8a",
+            "eu-north-1": "ami-0c82fed57ec96e177",
+            "eu-south-1": "ami-0968f1cac1f5b8dc4",
+            "eu-south-2": "ami-0256a580a05f1077e",
+            "eu-west-1": "ami-0af07030aeba41639",
+            "eu-west-2": "ami-08628236223df8593",
+            "eu-west-3": "ami-05b6480b0f340cfa8",
+            "me-central-1": "ami-03795221b1929f844",
+            "me-south-1": "ami-0b07126d56516138e",
+            "sa-east-1": "ami-0838a3b2dfdbe2a1e",
+            "us-east-1": "ami-0cf5b1e96264c6574",
+            "us-east-2": "ami-069e04ae277d8d7ae",
+            "us-west-1": "ami-0efac4227de37553f",
+            "us-west-2": "ami-08e94e0c0096f9f07"
+          }
+        },
+        "os": "centos7",
+        "os_type": "redhat7",
+        "uuid": "8b9cd122-ae16-4941-a3af-66fa3e8a55bd",
+        "package-versions": {
+          "blackbox-exporter": "0.19.0",
+          "cdp-logging-agent": "0.3.6",
+          "cdp-minifi-agent": "1.22.07",
+          "cdp-prometheus": "2.36.2",
+          "cdp-request-signer": "0.2.4",
+          "cdp-telemetry": "0.4.31",
+          "cloudbreak_images": "6749080ea0ec7356942b3b1127e8be08a6226374",
+          "inverting-proxy-agent": "3.0.7-b1",
+          "inverting-proxy-agent_gbn": "41924420",
+          "java": "8",
+          "java11": "11.0.19",
+          "java17": "17.0.2",
+          "java8": "1.8.0_372",
+          "metering_agent": "1.0.0",
+          "node-exporter": "1.3.1",
+          "psql": "10",
+          "psql10": "10.23",
+          "psql11": "11.20",
+          "psql14": "14.8",
+          "python27": "2.7.5-92.el7_9",
+          "python36": "3.6.8-18.el7",
+          "python38": "3.8.13-1.el7",
+          "salt": "3001.8",
+          "salt-bootstrap": "0.13.6-2022-05-20T08:57:17"
+        }
+      },
+      {
+        "created": 1696418294,
+        "published": 1696423137,
+        "date": "2023-10-04",
+        "description": "Official Cloudbreak image",
+        "images": {
+          "aws_gov": {
+            "us-gov-west-1": "ami-0914bc6a0472b2939"
+          }
+        },
+        "os": "redhat8",
+        "os_type": "redhat8",
+        "uuid": "58e87231-8df3-434e-a3aa-d06ee1c962ff",
+        "package-versions": {
+          "blackbox-exporter": "0.19.0",
+          "cdp-logging-agent": "1.2.6_b55_redhat8",
+          "cdp-prometheus": "2.36.2",
+          "cdp-telemetry": "0.4.36",
+          "cloudbreak_images": "0682792d7b96478586955d8483a7b789b7a24b30",
+          "inverting-proxy-agent": "3.0.7-b1",
+          "inverting-proxy-agent_gbn": "41924420",
+          "java": "8",
+          "java11": "11.0.20",
+          "java17": "17.0.8",
+          "java21": "21",
+          "java8": "1.8.0_382",
+          "metering_agent": "2.0.0",
+          "node-exporter": "1.3.1",
+          "psql": "11",
+          "psql11": "11.18",
+          "psql14": "14.7",
+          "python36": "3.6.8-38.module+el8.5.0+12207+5c5719bc",
+          "python38": "3.8.16-1.module+el8.8.0+18967+20d359ae.1",
+          "salt": "3001.8",
+          "salt-bootstrap": "0.13.6-2022-05-20T08:57:17",
+          "source-image": "ami-0ac4e06a69870e5be"
+        },
+        "tags": {
+          "fips-mode": "enabled",
+          "reducer-ignore": "true",
+          "stig": "true"
+        }
+      },
+      {
+        "created": 1701688950,
+        "published": 1701690944,
+        "date": "2023-12-04",
+        "description": "Yarn centos-79 image",
+        "images": {
+          "yarn": {
+            "default": "docker-sandbox.infra.cloudera.com/cloudbreak/centos-79:2023-12-04-11-22-30"
+          }
+        },
+        "os": "centos7",
+        "os_type": "redhat7",
+        "uuid": "a0eb831e-fb81-4749-b4d4-50c1280eca07",
+        "package-versions": {
+          "blackbox-exporter": "0.19.0",
+          "cdp-prometheus": "2.36.2",
+          "java": "8",
+          "java11": "11.0.21",
+          "java8": "1.8.0_392",
+          "node-exporter": "1.3.1",
+          "psql": "10",
+          "psql10": "10.23",
+          "psql11": "11.22",
+          "psql14": "14.10",
+          "python27": "2.7.5-94.el7_9",
+          "python36": "3.6.8-21.el7_9",
+          "python38": "3.8.13-1.el7",
+          "salt": "3001.8",
+          "salt-bootstrap": "0.13.6-2022-05-20T08:57:17"
+        }
+      },
+      {
+        "created": 1723068457,
+        "published": 1723070309,
+        "date": "2024-08-07",
+        "description": "Base Image with JDK 17 + RHEL 8.10 (CB-26802)",
+        "images": {
+          "azure": {
+            "West US": "https://cldrwestus.blob.core.windows.net/images/cb-cdh--1723068410.vhd"
+          }
+        },
+        "os": "redhat8",
+        "os_type": "redhat8",
+        "architecture": "x86_64",
+        "uuid": "3fff0708-8703-4f58-9021-7d47067bd65c",
+        "package-versions": {
+          "blackbox-exporter": "0.19.0",
+          "cdp-logging-agent": "1.3.2_b1",
+          "cdp-minifi-agent": "1.22.07",
+          "cdp-prometheus": "2.36.2",
+          "cdp-request-signer": "0.2.4",
+          "cdp-telemetry": "1.3.2_b1",
+          "cloudbreak_images": "2e7c7616d51598761d144ed8468bca95cf8b8074",
+          "inverting-proxy-agent": "3.5.0-b82",
+          "inverting-proxy-agent_gbn": "55820720",
+          "java": "17",
+          "java11": "11.0.24",
+          "java17": "17.0.12",
+          "java21": "21.0.4",
+          "java8": "1.8.0_422",
+          "metering_agent": "2.0.0",
+          "node-exporter": "1.3.1",
+          "os-version": "8.10",
+          "psql": "14",
+          "psql11": "11.22",
+          "psql14": "14.12",
+          "python311": "3.11.9-2.el8_10",
+          "python36": "3.6.8-39.module+el8.10.0+20784+edafcd43",
+          "python38": "3.8.17-2.module+el8.9.0+19642+a12b4af6",
+          "python39": "3.9.19-1.module+el8.10.0+21815+bb024982",
+          "salt": "3001.8",
+          "salt-bootstrap": "0.13.9-2024-07-09T12:24:25",
+          "source-image": "redhat:rhel-byos:rhel-lvm810:8.10.2024060517"
+        },
+        "tags": {
+          "fips-mode": "disabled",
+          "hardening": "cis_server_l1",
+          "reducer-ignore": "true"
+        }
+      },
+      {
+        "created": 1723134877,
+        "published": 1723137396,
+        "date": "2024-08-08",
+        "description": "Base Image with JDK 17 + RHEL 8.10 (CB-26802)",
+        "images": {
+          "gcp": {
+            "default": "cloudera-cb-images/cb-cdh--1723134868.tar.gz"
+          }
+        },
+        "os": "redhat8",
+        "os_type": "redhat8",
+        "architecture": "x86_64",
+        "uuid": "3a5ab77c-1d31-41dd-9bc2-295d1e13be88",
+        "package-versions": {
+          "blackbox-exporter": "0.19.0",
+          "cdp-logging-agent": "1.3.2_b1",
+          "cdp-minifi-agent": "1.22.07",
+          "cdp-prometheus": "2.36.2",
+          "cdp-request-signer": "0.2.4",
+          "cdp-telemetry": "1.3.2_b1",
+          "cloudbreak_images": "a61b174f1f65d25670fbb9e62d2af557fcad66b2",
+          "inverting-proxy-agent": "3.5.0-b82",
+          "inverting-proxy-agent_gbn": "55820720",
+          "java": "17",
+          "java11": "11.0.24",
+          "java17": "17.0.12",
+          "java21": "21.0.4",
+          "java8": "1.8.0_422",
+          "metering_agent": "2.0.0",
+          "node-exporter": "1.3.1",
+          "os-version": "8.10",
+          "psql": "14",
+          "psql11": "11.22",
+          "psql14": "14.13",
+          "psql15": "15.7",
+          "python311": "3.11.9-2.el8_10",
+          "python36": "3.6.8-39.module+el8.10.0+20784+edafcd43",
+          "python38": "3.8.17-2.module+el8.9.0+19642+a12b4af6",
+          "python39": "3.9.19-1.module+el8.10.0+21815+bb024982",
+          "salt": "3001.8",
+          "salt-bootstrap": "0.13.9-2024-07-09T12:24:25",
+          "source-image": "rhel-8-byos-v20240709"
+        },
+        "tags": {
+          "fips-mode": "disabled",
+          "hardening": "cis_server_l1",
+          "reducer-ignore": "true"
+        }
+      },
+      {
+        "created": 1723461807,
+        "published": 1723464383,
+        "date": "2024-08-12",
+        "description": "Base Image with JDK 17 + RHEL 8.10 (CB-26802)",
+        "images": {
+          "aws": {
+            "us-west-1": "ami-058281043d2a01a00",
+            "us-west-2": "ami-0405a1d7a2a107aa0"
+          }
+        },
+        "os": "redhat8",
+        "os_type": "redhat8",
+        "architecture": "x86_64",
+        "uuid": "c88c1a38-c44e-4195-947e-2804bdadb88d",
+        "package-versions": {
+          "blackbox-exporter": "0.19.0",
+          "cdp-logging-agent": "1.3.2_b1",
+          "cdp-minifi-agent": "1.22.07",
+          "cdp-prometheus": "2.36.2",
+          "cdp-request-signer": "0.2.4",
+          "cdp-telemetry": "1.3.2_b1",
+          "cloudbreak_images": "a61b174f1f65d25670fbb9e62d2af557fcad66b2",
+          "imds": "v2",
+          "inverting-proxy-agent": "3.5.0-b82",
+          "inverting-proxy-agent_gbn": "55820720",
+          "java": "17",
+          "java11": "11.0.24",
+          "java17": "17.0.12",
+          "java21": "21.0.4",
+          "java8": "1.8.0_422",
+          "metering_agent": "2.0.0",
+          "node-exporter": "1.3.1",
+          "os-version": "8.10",
+          "psql": "14",
+          "psql11": "11.22",
+          "psql14": "14.13",
+          "python311": "3.11.9-2.el8_10",
+          "python36": "3.6.8-39.module+el8.10.0+20784+edafcd43",
+          "python38": "3.8.17-2.module+el8.9.0+19642+a12b4af6",
+          "python39": "3.9.19-1.module+el8.10.0+21815+bb024982",
+          "salt": "3001.8",
+          "salt-bootstrap": "0.13.9-2024-07-09T12:24:25",
+          "source-image": "ami-02073841a355a1e92"
+        },
+        "tags": {
+          "fips-mode": "disabled",
+          "hardening": "cis_server_l1",
+          "reducer-ignore": "true"
+        }
+      },
+      {
+        "created": 1742602313,
+        "published": 1742604097,
+        "date": "2025-03-22",
+        "description": "Official Cloudbreak image",
+        "images": {
+          "azure": {
+            "West US": "https://cldrwestus.blob.core.windows.net/images/cb-cdh--1742602283.vhd"
+          }
+        },
+        "os": "centos7",
+        "os_type": "redhat7",
+        "architecture": "x86_64",
+        "uuid": "90c4a6f8-7ba6-43f2-8c7e-2d962afc694e",
+        "package-versions": {
+          "blackbox-exporter": "0.25.0",
+          "cdp-logging-agent": "1.3.5_b1",
+          "cdp-prometheus": "2.54.1",
+          "cdp-request-signer": "1.3.7_b2",
+          "cdp-telemetry": "1.3.5_b1",
+          "cloudbreak_images": "dfa7c0d0e759d31fb358e9e99bf08f17d466e8dd",
+          "inverting-proxy-agent": "3.9.0-b37",
+          "inverting-proxy-agent_gbn": "62632569",
+          "java": "8",
+          "java11": "11.0.23",
+          "java8": "1.8.0_412",
+          "metering_agent": "2.0.0",
+          "node-exporter": "1.3.1",
+          "psql": "10",
+          "psql10": "10.23",
+          "psql11": "11.22",
+          "psql14": "14.17",
+          "python27": "2.7.5-94.el7_9",
+          "python36": "3.6.8-21.el7_9",
+          "python38": "3.8.13-1.el7",
+          "salt": "3001.8",
+          "salt-bootstrap": "0.14.0-2024-11-28T08:25:12",
+          "source-image": "openlogic:centos:7.6:7.6.201909120"
+        },
+        "tags": {
+          "hardening": "cis_server_l1"
+        }
+      },
+      {
+        "created": 1742602238,
+        "published": 1742604362,
+        "date": "2025-03-22",
+        "description": "Official Cloudbreak image",
+        "images": {
+          "gcp": {
+            "default": "cloudera-cb-images/cb-cdh--1742602232.tar.gz"
+          }
+        },
+        "os": "centos7",
+        "os_type": "redhat7",
+        "architecture": "x86_64",
+        "uuid": "02d38f11-19cf-4cc6-9dee-b6d658dcef1c",
+        "package-versions": {
+          "blackbox-exporter": "0.25.0",
+          "cdp-logging-agent": "1.3.5_b1",
+          "cdp-prometheus": "2.54.1",
+          "cdp-request-signer": "1.3.7_b2",
+          "cdp-telemetry": "1.3.5_b1",
+          "cloudbreak_images": "dfa7c0d0e759d31fb358e9e99bf08f17d466e8dd",
+          "inverting-proxy-agent": "3.9.0-b37",
+          "inverting-proxy-agent_gbn": "62632569",
+          "java": "8",
+          "java11": "11.0.23",
+          "java8": "1.8.0_412",
+          "metering_agent": "2.0.0",
+          "node-exporter": "1.3.1",
+          "psql": "10",
+          "psql10": "10.23",
+          "psql11": "11.22",
+          "psql14": "14.17",
+          "python27": "2.7.5-94.el7_9",
+          "python36": "3.6.8-21.el7_9",
+          "python38": "3.8.13-1.el7",
+          "salt": "3001.8",
+          "salt-bootstrap": "0.14.0-2024-11-28T08:25:12",
+          "source-image": "centos-7-v20200811"
+        },
+        "tags": {
+          "hardening": "cis_server_l1"
+        }
+      },
+      {
+        "created": 1742602341,
+        "published": 1742604564,
+        "date": "2025-03-22",
+        "description": "Official Cloudbreak image",
+        "images": {
+          "azure": {
+            "Central US": "https://cldrcentralus.blob.core.windows.net/images/cb-cdh--1742602312.vhd",
+            "East US": "https://cldreastus.blob.core.windows.net/images/cb-cdh--1742602312.vhd",
+            "East US 2": "https://cldreastus2.blob.core.windows.net/images/cb-cdh--1742602312.vhd",
+            "West US": "https://cldrwestus.blob.core.windows.net/images/cb-cdh--1742602312.vhd",
+            "West US 2": "https://cldrwestus2.blob.core.windows.net/images/cb-cdh--1742602312.vhd"
+          }
+        },
+        "os": "redhat8",
+        "os_type": "redhat8",
+        "architecture": "x86_64",
+        "uuid": "e86178a3-3317-4d41-aeec-da10add6263b",
+        "package-versions": {
+          "blackbox-exporter": "0.25.0",
+          "cdp-logging-agent": "1.3.5_b1",
+          "cdp-prometheus": "2.54.1",
+          "cdp-request-signer": "1.3.7_b2",
+          "cdp-telemetry": "1.3.5_b1",
+          "cloudbreak_images": "dfa7c0d0e759d31fb358e9e99bf08f17d466e8dd",
+          "inverting-proxy-agent": "3.9.0-b37",
+          "inverting-proxy-agent_gbn": "62632569",
+          "java": "8",
+          "java11": "11.0.25",
+          "java17": "17.0.14",
+          "java21": "21.0.6",
+          "java8": "1.8.0_442",
+          "metering_agent": "2.0.0",
+          "node-exporter": "1.3.1",
+          "os-version": "8.10",
+          "psql": "14",
+          "psql11": "11.22",
+          "psql14": "14.17",
+          "python311": "3.11.11-1.el8_10",
+          "python36": "3.6.8-39.module+el8.10.0+20784+edafcd43",
+          "python38": "3.8.17-2.module+el8.9.0+19642+a12b4af6",
+          "python39": "3.9.20-1.module+el8.10.0+22342+478c159e",
+          "salt": "3001.8",
+          "salt-bootstrap": "0.14.0-2024-11-28T08:25:12",
+          "source-image": "redhat:rhel-byos:rhel-lvm810:8.10.2024060517"
+        },
+        "tags": {
+          "fips-mode": "disabled",
+          "hardening": "cis_server_l1"
+        }
+      },
+      {
+        "created": 1742602304,
+        "published": 1742604886,
+        "date": "2025-03-22",
+        "description": "Official Cloudbreak image",
+        "images": {
+          "aws": {
+            "us-west-1": "ami-089b9cb38d7530ebf"
+          }
+        },
+        "os": "redhat8",
+        "os_type": "redhat8",
+        "architecture": "arm64",
+        "uuid": "dda3b968-77c7-4a26-bbf9-afb5dbcfb289",
+        "package-versions": {
+          "blackbox-exporter": "0.25.0",
+          "cdp-logging-agent": "1.3.5_b1",
+          "cdp-prometheus": "2.54.1",
+          "cdp-request-signer": "1.3.7_b2",
+          "cdp-telemetry": "1.3.5_b1",
+          "cloudbreak_images": "dfa7c0d0e759d31fb358e9e99bf08f17d466e8dd",
+          "imds": "v2",
+          "java": "17",
+          "java17": "17.0.14",
+          "java21": "21.0.6",
+          "node-exporter": "1.3.1",
+          "os-version": "8.10",
+          "psql": "14",
+          "psql14": "14.17",
+          "python311": "3.11.11-1.el8_10",
+          "python36": "3.6.8-39.module+el8.10.0+20784+edafcd43",
+          "python38": "3.8.17-2.module+el8.9.0+19642+a12b4af6",
+          "python39": "3.9.20-1.module+el8.10.0+22342+478c159e",
+          "salt": "3001.8",
+          "salt-bootstrap": "0.14.0-2024-11-28T08:25:17",
+          "source-image": "ami-05032c39067d77b1b"
+        },
+        "tags": {
+          "fips-mode": "disabled",
+          "hardening": "cis_server_l1"
+        }
+      },
+      {
+        "created": 1742602291,
+        "published": 1742605546,
+        "date": "2025-03-22",
+        "description": "Official Cloudbreak image",
+        "images": {
+          "gcp": {
+            "default": "cloudera-cb-images/cb-cdh--1742602284.tar.gz"
+          }
+        },
+        "os": "redhat8",
+        "os_type": "redhat8",
+        "architecture": "x86_64",
+        "uuid": "0174c970-cb30-4cb9-9f99-20c9ce968baf",
+        "package-versions": {
+          "blackbox-exporter": "0.25.0",
+          "cdp-logging-agent": "1.3.5_b1",
+          "cdp-prometheus": "2.54.1",
+          "cdp-request-signer": "1.3.7_b2",
+          "cdp-telemetry": "1.3.5_b1",
+          "cloudbreak_images": "dfa7c0d0e759d31fb358e9e99bf08f17d466e8dd",
+          "inverting-proxy-agent": "3.9.0-b37",
+          "inverting-proxy-agent_gbn": "62632569",
+          "java": "8",
+          "java11": "11.0.25",
+          "java17": "17.0.14",
+          "java21": "21.0.6",
+          "java8": "1.8.0_442",
+          "metering_agent": "2.0.0",
+          "node-exporter": "1.3.1",
+          "os-version": "8.10",
+          "psql": "14",
+          "psql11": "11.22",
+          "psql14": "14.17",
+          "python311": "3.11.11-1.el8_10",
+          "python36": "3.6.8-39.module+el8.10.0+20784+edafcd43",
+          "python38": "3.8.17-2.module+el8.9.0+19642+a12b4af6",
+          "python39": "3.9.20-1.module+el8.10.0+22342+478c159e",
+          "salt": "3001.8",
+          "salt-bootstrap": "0.14.0-2024-11-28T08:25:12",
+          "source-image": "rhel-8-byos-v20240709"
+        },
+        "tags": {
+          "fips-mode": "disabled",
+          "hardening": "cis_server_l1"
+        }
+      },
+      {
+        "created": 1742602290,
+        "published": 1742605832,
+        "date": "2025-03-22",
+        "description": "Official Cloudbreak image",
+        "images": {
+          "aws": {
+            "eu-central-1": "ami-0815cb2bc576421bd",
+            "eu-west-1": "ami-00a8b57263910f9d8",
+            "us-west-1": "ami-039972aedf9be81bc",
+            "us-west-2": "ami-0c18585d4eab03506"
+          }
+        },
+        "os": "centos7",
+        "os_type": "redhat7",
+        "architecture": "x86_64",
+        "uuid": "b711620a-d19f-4d90-a84d-c4f1ee3eef0d",
+        "package-versions": {
+          "blackbox-exporter": "0.25.0",
+          "cdp-logging-agent": "1.3.5_b1",
+          "cdp-prometheus": "2.54.1",
+          "cdp-request-signer": "1.3.7_b2",
+          "cdp-telemetry": "1.3.5_b1",
+          "cloudbreak_images": "dfa7c0d0e759d31fb358e9e99bf08f17d466e8dd",
+          "imds": "v2",
+          "inverting-proxy-agent": "3.9.0-b37",
+          "inverting-proxy-agent_gbn": "62632569",
+          "java": "8",
+          "java11": "11.0.23",
+          "java8": "1.8.0_412",
+          "metering_agent": "2.0.0",
+          "node-exporter": "1.3.1",
+          "psql": "10",
+          "psql10": "10.23",
+          "psql11": "11.22",
+          "psql14": "14.17",
+          "python27": "2.7.5-94.el7_9",
+          "python36": "3.6.8-21.el7_9",
+          "python38": "3.8.13-1.el7",
+          "salt": "3001.8",
+          "salt-bootstrap": "0.14.0-2024-11-28T08:25:12",
+          "source-image": "ami-098f55b4287a885ba"
+        },
+        "tags": {
+          "hardening": "cis_server_l1"
+        }
+      },
+      {
+        "created": 1743207264,
+        "published": 1743208377,
+        "date": "2025-03-29",
+        "description": "Yarn redhat-8 image",
+        "images": {
+          "yarn": {
+            "default": "docker-sandbox.infra.cloudera.com/cloudbreak/redhat-8:2025-03-29-00-14-24"
+          }
+        },
+        "os": "redhat8",
+        "os_type": "redhat8",
+        "uuid": "27fe0de1-f4b0-49c1-9bbc-4148f30fb3ff",
+        "package-versions": {
+          "blackbox-exporter": "0.25.0",
+          "cdp-logging-agent": "1.3.5_b1",
+          "cdp-prometheus": "2.54.1",
+          "cdp-request-signer": "1.3.7_b2",
+          "cdp-telemetry": "1.3.5_b1",
+          "inverting-proxy-agent": "3.5.0-b82",
+          "inverting-proxy-agent_gbn": "55820720",
+          "java": "8",
+          "java11": "11.0.25",
+          "java17": "17.0.14",
+          "java8": "1.8.0_442",
+          "node-exporter": "1.3.1",
+          "os-version": "8.10",
+          "psql": "14",
+          "psql14": "14.17",
+          "python311": "3.11.11-1.el8_10",
+          "python36": "3.6.8-39.module+el8.10.0+20784+edafcd43",
+          "python38": "3.8.17-2.module+el8.9.0+19642+a12b4af6",
+          "python39": "3.9.20-1.module+el8.10.0+22342+478c159e",
+          "salt": "3001.8",
+          "salt-bootstrap": "0.14.3-2025-03-12T14:08:24"
+        }
+      },
+      {
+        "created": 1743207239,
+        "published": 1743209062,
+        "date": "2025-03-29",
+        "description": "Official Cloudbreak image",
+        "images": {
+          "azure": {
+            "West US": "https://cldrwestus.blob.core.windows.net/images/cb-cdh--1743207220.vhd"
+          }
+        },
+        "os": "centos7",
+        "os_type": "redhat7",
+        "architecture": "x86_64",
+        "uuid": "293b7247-d17b-41b0-affb-2e1aebe9dac1",
+        "package-versions": {
+          "blackbox-exporter": "0.25.0",
+          "cdp-logging-agent": "1.3.5_b1",
+          "cdp-prometheus": "2.54.1",
+          "cdp-request-signer": "1.3.7_b2",
+          "cdp-telemetry": "1.3.5_b1",
+          "cloudbreak_images": "153fab3888d2d908c617c0503e552a49becdc7dd",
+          "inverting-proxy-agent": "3.9.0-b37",
+          "inverting-proxy-agent_gbn": "62632569",
+          "java": "8",
+          "java11": "11.0.23",
+          "java8": "1.8.0_412",
+          "metering_agent": "2.0.0",
+          "node-exporter": "1.3.1",
+          "psql": "10",
+          "psql10": "10.23",
+          "psql11": "11.22",
+          "psql14": "14.17",
+          "python27": "2.7.5-94.el7_9",
+          "python36": "3.6.8-21.el7_9",
+          "python38": "3.8.13-1.el7",
+          "salt": "3001.8",
+          "salt-bootstrap": "0.14.3-2025-03-12T14:08:24",
+          "source-image": "openlogic:centos:7.6:7.6.201909120"
+        },
+        "tags": {
+          "hardening": "cis_server_l1"
+        }
+      },
+      {
+        "created": 1743207218,
+        "published": 1743209286,
+        "date": "2025-03-29",
+        "description": "Official Cloudbreak image",
+        "images": {
+          "gcp": {
+            "default": "cloudera-cb-images/cb-cdh--1743207213.tar.gz"
+          }
+        },
+        "os": "centos7",
+        "os_type": "redhat7",
+        "architecture": "x86_64",
+        "uuid": "705c9b70-7660-4b6a-bc52-212f21b3c326",
+        "package-versions": {
+          "blackbox-exporter": "0.25.0",
+          "cdp-logging-agent": "1.3.5_b1",
+          "cdp-prometheus": "2.54.1",
+          "cdp-request-signer": "1.3.7_b2",
+          "cdp-telemetry": "1.3.5_b1",
+          "cloudbreak_images": "153fab3888d2d908c617c0503e552a49becdc7dd",
+          "inverting-proxy-agent": "3.9.0-b37",
+          "inverting-proxy-agent_gbn": "62632569",
+          "java": "8",
+          "java11": "11.0.23",
+          "java8": "1.8.0_412",
+          "metering_agent": "2.0.0",
+          "node-exporter": "1.3.1",
+          "psql": "10",
+          "psql10": "10.23",
+          "psql11": "11.22",
+          "psql14": "14.17",
+          "python27": "2.7.5-94.el7_9",
+          "python36": "3.6.8-21.el7_9",
+          "python38": "3.8.13-1.el7",
+          "salt": "3001.8",
+          "salt-bootstrap": "0.14.3-2025-03-12T14:08:24",
+          "source-image": "centos-7-v20200811"
+        },
+        "tags": {
+          "hardening": "cis_server_l1"
+        }
+      },
+      {
+        "created": 1743207278,
+        "published": 1743209653,
+        "date": "2025-03-29",
+        "description": "Official Cloudbreak image",
+        "images": {
+          "azure": {
+            "Central US": "https://cldrcentralus.blob.core.windows.net/images/cb-cdh--1743207249.vhd",
+            "East US": "https://cldreastus.blob.core.windows.net/images/cb-cdh--1743207249.vhd",
+            "East US 2": "https://cldreastus2.blob.core.windows.net/images/cb-cdh--1743207249.vhd",
+            "West US": "https://cldrwestus.blob.core.windows.net/images/cb-cdh--1743207249.vhd",
+            "West US 2": "https://cldrwestus2.blob.core.windows.net/images/cb-cdh--1743207249.vhd"
+          }
+        },
+        "os": "redhat8",
+        "os_type": "redhat8",
+        "architecture": "x86_64",
+        "uuid": "d53fe2ea-90dd-4fbe-b02f-093011643a2b",
+        "package-versions": {
+          "blackbox-exporter": "0.25.0",
+          "cdp-logging-agent": "1.3.5_b1",
+          "cdp-prometheus": "2.54.1",
+          "cdp-request-signer": "1.3.7_b2",
+          "cdp-telemetry": "1.3.5_b1",
+          "cloudbreak_images": "153fab3888d2d908c617c0503e552a49becdc7dd",
+          "inverting-proxy-agent": "3.9.0-b37",
+          "inverting-proxy-agent_gbn": "62632569",
+          "java": "8",
+          "java11": "11.0.25",
+          "java17": "17.0.14",
+          "java21": "21.0.6",
+          "java8": "1.8.0_442",
+          "metering_agent": "2.0.0",
+          "node-exporter": "1.3.1",
+          "os-version": "8.10",
+          "psql": "14",
+          "psql11": "11.22",
+          "psql14": "14.17",
+          "python311": "3.11.11-1.el8_10",
+          "python36": "3.6.8-39.module+el8.10.0+20784+edafcd43",
+          "python38": "3.8.17-2.module+el8.9.0+19642+a12b4af6",
+          "python39": "3.9.20-1.module+el8.10.0+22342+478c159e",
+          "salt": "3001.8",
+          "salt-bootstrap": "0.14.3-2025-03-12T14:08:24",
+          "source-image": "redhat:rhel-byos:rhel-lvm810:8.10.2024060517"
+        },
+        "tags": {
+          "fips-mode": "disabled",
+          "hardening": "cis_server_l1"
+        }
+      },
+      {
+        "created": 1743207240,
+        "published": 1743209862,
+        "date": "2025-03-29",
+        "description": "Official Cloudbreak image",
+        "images": {
+          "aws": {
+            "us-west-1": "ami-0c3e3ea5f7385c3ad"
+          }
+        },
+        "os": "redhat8",
+        "os_type": "redhat8",
+        "architecture": "arm64",
+        "uuid": "8cb8bd27-c4b6-4c05-9fac-bd5bb0d002c1",
+        "package-versions": {
+          "blackbox-exporter": "0.25.0",
+          "cdp-logging-agent": "1.3.5_b1",
+          "cdp-prometheus": "2.54.1",
+          "cdp-request-signer": "1.3.7_b2",
+          "cdp-telemetry": "1.3.5_b1",
+          "cloudbreak_images": "153fab3888d2d908c617c0503e552a49becdc7dd",
+          "imds": "v2",
+          "java": "17",
+          "java17": "17.0.14",
+          "java21": "21.0.6",
+          "node-exporter": "1.3.1",
+          "os-version": "8.10",
+          "psql": "14",
+          "psql14": "14.17",
+          "python311": "3.11.11-1.el8_10",
+          "python36": "3.6.8-39.module+el8.10.0+20784+edafcd43",
+          "python38": "3.8.17-2.module+el8.9.0+19642+a12b4af6",
+          "python39": "3.9.20-1.module+el8.10.0+22342+478c159e",
+          "salt": "3001.8",
+          "salt-bootstrap": "0.14.3-2025-03-12T14:08:28",
+          "source-image": "ami-05032c39067d77b1b"
+        },
+        "tags": {
+          "fips-mode": "disabled",
+          "hardening": "cis_server_l1"
+        }
+      },
+      {
+        "created": 1743207218,
+        "published": 1743210282,
+        "date": "2025-03-29",
+        "description": "Official Cloudbreak image",
+        "images": {
+          "gcp": {
+            "default": "cloudera-cb-images/cb-cdh--1743207212.tar.gz"
+          }
+        },
+        "os": "redhat8",
+        "os_type": "redhat8",
+        "architecture": "x86_64",
+        "uuid": "e3c7f5cb-c383-4ba2-bb0e-99ae0b2c8207",
+        "package-versions": {
+          "blackbox-exporter": "0.25.0",
+          "cdp-logging-agent": "1.3.5_b1",
+          "cdp-prometheus": "2.54.1",
+          "cdp-request-signer": "1.3.7_b2",
+          "cdp-telemetry": "1.3.5_b1",
+          "cloudbreak_images": "153fab3888d2d908c617c0503e552a49becdc7dd",
+          "inverting-proxy-agent": "3.9.0-b37",
+          "inverting-proxy-agent_gbn": "62632569",
+          "java": "8",
+          "java11": "11.0.25",
+          "java17": "17.0.14",
+          "java21": "21.0.6",
+          "java8": "1.8.0_442",
+          "metering_agent": "2.0.0",
+          "node-exporter": "1.3.1",
+          "os-version": "8.10",
+          "psql": "14",
+          "psql11": "11.22",
+          "psql14": "14.17",
+          "python311": "3.11.11-1.el8_10",
+          "python36": "3.6.8-39.module+el8.10.0+20784+edafcd43",
+          "python38": "3.8.17-2.module+el8.9.0+19642+a12b4af6",
+          "python39": "3.9.20-1.module+el8.10.0+22342+478c159e",
+          "salt": "3001.8",
+          "salt-bootstrap": "0.14.3-2025-03-12T14:08:24",
+          "source-image": "rhel-8-byos-v20240709"
+        },
+        "tags": {
+          "fips-mode": "disabled",
+          "hardening": "cis_server_l1"
+        }
+      },
+      {
+        "created": 1743207163,
+        "published": 1743210492,
+        "date": "2025-03-29",
+        "description": "Official Cloudbreak image",
+        "images": {
+          "aws": {
+            "eu-central-1": "ami-03dba0611f1b76301",
+            "eu-west-1": "ami-0acf4f4114fde27e3",
+            "us-west-1": "ami-03d03a5e1d6701271",
+            "us-west-2": "ami-0b847434d8674ca54"
+          }
+        },
+        "os": "redhat8",
+        "os_type": "redhat8",
+        "architecture": "x86_64",
+        "uuid": "ec8a02ce-b779-4255-bfbd-d4555b338b89",
+        "package-versions": {
+          "blackbox-exporter": "0.25.0",
+          "cdp-logging-agent": "1.3.5_b1",
+          "cdp-prometheus": "2.54.1",
+          "cdp-request-signer": "1.3.7_b2",
+          "cdp-telemetry": "1.3.5_b1",
+          "cloudbreak_images": "153fab3888d2d908c617c0503e552a49becdc7dd",
+          "imds": "v2",
+          "inverting-proxy-agent": "3.9.0-b37",
+          "inverting-proxy-agent_gbn": "62632569",
+          "java": "8",
+          "java11": "11.0.25",
+          "java17": "17.0.14",
+          "java21": "21.0.6",
+          "java8": "1.8.0_442",
+          "metering_agent": "2.0.0",
+          "node-exporter": "1.3.1",
+          "os-version": "8.10",
+          "psql": "14",
+          "psql11": "11.22",
+          "psql14": "14.17",
+          "python311": "3.11.11-1.el8_10",
+          "python36": "3.6.8-39.module+el8.10.0+20784+edafcd43",
+          "python38": "3.8.17-2.module+el8.9.0+19642+a12b4af6",
+          "python39": "3.9.20-1.module+el8.10.0+22342+478c159e",
+          "salt": "3001.8",
+          "salt-bootstrap": "0.14.3-2025-03-12T14:08:24",
+          "source-image": "ami-02073841a355a1e92"
+        },
+        "tags": {
+          "fips-mode": "disabled",
+          "hardening": "cis_server_l1"
+        }
+      },
+      {
+        "created": 1743207220,
+        "published": 1743211036,
+        "date": "2025-03-29",
+        "description": "Official Cloudbreak image",
+        "images": {
+          "aws": {
+            "eu-central-1": "ami-0957f3530bae676a0",
+            "eu-west-1": "ami-0eeb29b3a953ce858",
+            "us-west-1": "ami-0c2ad0541d7cd7fd8",
+            "us-west-2": "ami-0e912b0f1f5a79aff"
+          }
+        },
+        "os": "centos7",
+        "os_type": "redhat7",
+        "architecture": "x86_64",
+        "uuid": "625477f1-56da-41d6-a7ba-6b846ba09024",
+        "package-versions": {
+          "blackbox-exporter": "0.25.0",
+          "cdp-logging-agent": "1.3.5_b1",
+          "cdp-prometheus": "2.54.1",
+          "cdp-request-signer": "1.3.7_b2",
+          "cdp-telemetry": "1.3.5_b1",
+          "cloudbreak_images": "153fab3888d2d908c617c0503e552a49becdc7dd",
+          "imds": "v2",
+          "inverting-proxy-agent": "3.9.0-b37",
+          "inverting-proxy-agent_gbn": "62632569",
+          "java": "8",
+          "java11": "11.0.23",
+          "java8": "1.8.0_412",
+          "metering_agent": "2.0.0",
+          "node-exporter": "1.3.1",
+          "psql": "10",
+          "psql10": "10.23",
+          "psql11": "11.22",
+          "psql14": "14.17",
+          "python27": "2.7.5-94.el7_9",
+          "python36": "3.6.8-21.el7_9",
+          "python38": "3.8.13-1.el7",
+          "salt": "3001.8",
+          "salt-bootstrap": "0.14.3-2025-03-12T14:08:24",
+          "source-image": "ami-098f55b4287a885ba"
+        },
+        "tags": {
+          "hardening": "cis_server_l1"
+        }
+      },
+      {
+        "created": 1744278299,
+        "published": 1744281628,
+        "date": "2025-04-10",
+        "description": "Official Cloudbreak image",
+        "images": {
+          "aws": {
+            "eu-central-1": "ami-092e3e9d606cef8c0",
+            "us-west-1": "ami-0ea8473d53e4e31dd",
+            "us-west-2": "ami-024e54b0fbb0cfe4f"
+          }
+        },
+        "os": "redhat8",
+        "os_type": "redhat8",
+        "architecture": "x86_64",
+        "uuid": "780d122b-6a41-4f94-a2e1-0c811947df0a",
+        "package-versions": {
+          "blackbox-exporter": "0.25.0",
+          "cdp-logging-agent": "1.3.5_b1",
+          "cdp-prometheus": "2.54.1",
+          "cdp-request-signer": "1.3.7_b2",
+          "cdp-telemetry": "1.3.5_b1",
+          "cloudbreak_images": "e0d916c5568f95e9a6549c266c57b54530db3ce7",
+          "imds": "v2",
+          "inverting-proxy-agent": "3.9.0-b37",
+          "inverting-proxy-agent_gbn": "62632569",
+          "java": "8",
+          "java11": "11.0.25",
+          "java17": "17.0.14",
+          "java21": "21.0.6",
+          "java8": "1.8.0_442",
+          "metering_agent": "2.0.0",
+          "node-exporter": "1.3.1",
+          "os-version": "8.10",
+          "psql": "14",
+          "psql11": "11.22",
+          "psql14": "14.17",
+          "python311": "3.11.11-1.el8_10",
+          "python36": "3.6.8-39.module+el8.10.0+20784+edafcd43",
+          "python38": "3.8.17-2.module+el8.9.0+19642+a12b4af6",
+          "python39": "3.9.20-1.module+el8.10.0+22342+478c159e",
+          "salt": "3001.8",
+          "salt-bootstrap": "0.14.3-2025-03-12T14:08:24",
+          "source-image": "ami-02073841a355a1e92"
+        },
+        "tags": {
+          "fips-mode": "disabled",
+          "hardening": "cis_server_l1"
+        }
+      },
+      {
+        "created": 1744294571,
+        "published": 1744295684,
+        "date": "2025-04-10",
+        "description": "Yarn redhat-8 image",
+        "images": {
+          "yarn": {
+            "default": "docker-sandbox.infra.cloudera.com/cloudbreak/redhat-8:2025-04-10-14-16-11"
+          }
+        },
+        "os": "redhat8",
+        "os_type": "redhat8",
+        "uuid": "effd000a-fd81-4e5d-ac0d-60a4b5a595ce",
+        "package-versions": {
+          "blackbox-exporter": "0.25.0",
+          "cdp-logging-agent": "1.3.5_b1",
+          "cdp-prometheus": "2.54.1",
+          "cdp-request-signer": "1.3.7_b2",
+          "cdp-telemetry": "1.3.5_b1",
+          "inverting-proxy-agent": "3.5.0-b82",
+          "inverting-proxy-agent_gbn": "55820720",
+          "java": "8",
+          "java11": "11.0.25",
+          "java17": "17.0.14",
+          "java8": "1.8.0_442",
+          "node-exporter": "1.3.1",
+          "os-version": "8.10",
+          "psql": "14",
+          "psql14": "14.17",
+          "psql17": "17.4",
+          "python311": "3.11.11-1.el8_10",
+          "python36": "3.6.8-39.module+el8.10.0+20784+edafcd43",
+          "python38": "3.8.17-2.module+el8.9.0+19642+a12b4af6",
+          "python39": "3.9.20-1.module+el8.10.0+22342+478c159e",
+          "salt": "3001.8",
+          "salt-bootstrap": "0.14.3-2025-03-12T14:08:24"
+        }
+      }
+    ],
+    "cdh-images": [
+      {
+        "created": 1733695711,
+        "published": 1733700836,
+        "date": "2024-12-08",
+        "description": "7.3.1.0 Base Release",
+        "images": {
+          "aws": {
+            "eu-central-1": "ami-038c430ca40a74183",
+            "eu-west-1": "ami-0d8e4c729319cc4b7",
+            "us-west-1": "ami-0700342c610f13308",
+            "us-west-2": "ami-0d4580bcd93d91814"
+          }
+        },
+        "os": "redhat8",
+        "os_type": "redhat8",
+        "architecture": "x86_64",
+        "uuid": "e219906f-9304-4ded-ade6-77c8006f1d8d",
+        "package-versions": {
+          "blackbox-exporter": "0.25.0",
+          "cdh-build-number": "60371244",
+          "cdp-logging-agent": "1.3.5_b1",
+          "cdp-prometheus": "2.54.1",
+          "cdp-request-signer": "1.3.5_b1",
+          "cdp-telemetry": "1.3.5_b1",
+          "cem": "2.2.99.0-6",
+          "cem_gbn": "57274095",
+          "cfm": "2.2.9.0-341",
+          "cfm_gbn": "60401112",
+          "cloudbreak_images": "dbb37df10f7b80740d9f7e4335d6f659ee20d145",
+          "cm": "7.13.1.0",
+          "cm-build-number": "60343691",
+          "composite_gbn": "60477418",
+          "csa": "1.14.0.0-42",
+          "csa_gbn": "60467927",
+          "imds": "v2",
+          "inverting-proxy-agent": "3.8.0-b23",
+          "inverting-proxy-agent_gbn": "59964360",
+          "java": "17",
+          "java17": "17.0.13",
+          "java21": "21.0.5",
+          "java8": "1.8.0_432",
+          "metering_agent": "2.0.0",
+          "node-exporter": "1.3.1",
+          "os-version": "8.10",
+          "psql": "14",
+          "psql11": "11.22",
+          "psql14": "14.15",
+          "python311": "3.11.10-1.el8_10",
+          "python36": "3.6.8-39.module+el8.10.0+20784+edafcd43",
+          "python38": "3.8.17-2.module+el8.9.0+19642+a12b4af6",
+          "python39": "3.9.20-1.module+el8.10.0+22342+478c159e",
+          "salt": "3001.8",
+          "salt-bootstrap": "0.14.0-2024-11-28T08:25:12",
+          "source-image": "ami-02073841a355a1e92",
+          "stack": "7.3.1"
+        },
+        "tags": {
+          "fips-mode": "disabled",
+          "hardening": "cis_server_l1",
+          "release-type": "Base Release"
+        },
+        "stack-details": {
+          "repo": {
+            "stack": {
+              "redhat8": "http://build-cache.vpc.cloudera.com/s3/build/60371244/cdh/7.x/parcels/",
+              "repoid": "CDH-7.3.1",
+              "repository-version": "7.3.1-1.cdh7.3.1.p0.60371244"
+            },
+            "util": null
+          },
+          "version": "7.3.1",
+          "build-number": "60371244"
+        },
+        "repo": {
+          "redhat8": "http://build-cache.vpc.cloudera.com/s3/build/60343691/cm7/7.13.1.0/redhat8/yum/"
+        },
+        "version": "7.3.1",
+        "build-number": "60343691",
+        "pre_warm_parcels": [
+          [
+            "FLINK-1.19.1-csa1.14.0.0-60467927-el8.parcel",
+            "http://build-cache.vpc.cloudera.com/s3/build/60467927/csa/1.x/parcels"
+          ],
+          [
+            "CFM-2.2.9.0-el8.parcel",
+            "http://build-cache.vpc.cloudera.com/s3/build/60401112/cfm/2.x/redhat8/yum/tars/parcel"
+          ],
+          [
+            "CEM-2.2.99.0-6-el8.parcel",
+            "http://build-cache.vpc.cloudera.com/s3/build/57274095/cem/2.x/redhat8/yum/tars/parcel"
+          ]
+        ],
+        "pre_warm_csd": [
+          "http://build-cache.vpc.cloudera.com/s3/build/60467927/csa/1.x/csd/FLINK-1.19.1-csa1.14.0.0-60467927.jar",
+          "http://build-cache.vpc.cloudera.com/s3/build/60467927/csa/1.x/csd/SQL_STREAM_BUILDER-1.19.1-csa1.14.0.0-60467927.jar",
+          "http://build-cache.vpc.cloudera.com/s3/build/60401112/cfm/2.x/redhat8/yum/tars/parcel/NIFI-1.28.1.2.2.9.0-341.jar",
+          "http://build-cache.vpc.cloudera.com/s3/build/60401112/cfm/2.x/redhat8/yum/tars/parcel/NIFIREGISTRY-1.28.1.2.2.9.0-341.jar",
+          "http://build-cache.vpc.cloudera.com/s3/build/57274095/cem/2.x/redhat8/yum/tars/parcel/EFM-2.2.99.0-6.jar"
+        ]
+      }
+    ]
+  },
+  "versions": {
+    "cloudbreak": [
+      {
+        "images": [
+          "e219906f-9304-4ded-ade6-77c8006f1d8d"
+        ],
+        "defaults": [
+        ],
+        "versions": [
+          "2.83.0-b7",
+          "2.97.0-b55"
+        ]
+      }
+    ]
+  }
+}
