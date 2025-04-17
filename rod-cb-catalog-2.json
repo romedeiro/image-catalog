@@ -99,7 +99,7 @@
           "http://build-cache-azure.kc.cloudera.com/s3/build/63914777/cfm/2.x/redhat8/yum/tars/parcel/NIFIREGISTRY-1.28.1.2.2.9.200-77.jar",
           "http://build-cache-azure.kc.cloudera.com/s3/build/63524535/cem/2.x/redhat8/yum/tars/parcel/EFM-2.2.99.200-3.jar"
         ]
-      },
+      }
     ]
   },
   "versions": {
